@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_ink_sac"
+        },
+        "title": {
+            "text": "Glowing Squid",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Throw glowstone on squid to make them glow!",
+            "color": "dark_aqua",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/lezappen",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

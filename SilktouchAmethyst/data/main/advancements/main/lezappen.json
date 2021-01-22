@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Lezappen",
+        "description": {
+            "text": "Zelcraft Developper",
+            "color": "dark_aqua",
+            "bold": false,
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Lezappen'}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "main:main/roo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
